@@ -1,0 +1,195 @@
+<!DOCTYPE html lang="es">
+<head>
+    <title>CONDOMINIO SEVILLA LAS TERRAZAS I</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,600">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div  class="container-fluid"> 
+            <div class="Navbar">
+                    
+                
+                <div class="Navbar__Link Navbar__Link-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                  
+                <nav class="Navbar__Items">
+                    <div class="Navbar__Link">
+                        <a href="#residencia">RESIDENCIA</a>
+                    </div>
+                    <div class="Navbar__Link">
+                            <a href="#recreacion">RECREACION</a>
+                        </div>
+                    <div class="Navbar__Link">
+                        <a href="#area-social">AREA SOCIAL</a>
+                    </div>
+                    <div class="Navbar__Link">
+                        <a href="#deportes">DEPORTES</a>
+                    </div>
+                    
+                </nav>
+                <div class="Navbar__Link Navbar__Link-button">
+                        <button class="buttonM">INGRESAR</button>
+                    </div>       
+            </div>               
+            <script>
+                    function classToggle() {
+                        const navs = document.querySelectorAll('.Navbar__Items')
+          
+                         navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+                    }
+        
+                    document.querySelector('.Navbar__Link-toggle').addEventListener('click', classToggle);
+            </script>           
+                            
+                                  
+            
+        </div>
+    </header>
+    <main>
+        <section id="principal">
+                <div  class="container-fluid">                
+                        <img src="images/principal.jpg" alt="Nature" style="width:100%; height: 480px;">
+                        <div class="text-block1">
+                            <button class="buttonP button1"><img id="sevillalogo" src="images/SevillaLogo.svg" alt="Pineapple" style="">
+                              <h1>SEVILLA LAS TERRAZAS I</h1>
+                            </button>
+                        </div>
+                        <div class="text-block2">
+                            <button class="buttonP button2">UN HOGAR SEGURO Y DIVERTIDO PARA TU FAMILIA</button>
+                            </div>
+                        
+                    </div>
+        </section>
+        <section id="residencia">
+            <div class="slideshow">
+                <img class="mySlides" src="images/slider-area-comun.jpg" alt="">
+                <img class="mySlides" src="images/slider-guarderia.png" alt="">
+                <img class="mySlides" src="images/slider-piscina.png" alt="">
+            </div>
+            <div class="social-info">
+                <img class="social-info-img" src="images/icons/Seguridad.svg" alt="">
+                <img class="social-info-img" src="images/icons/AreasVerdes.svg" alt="">
+                <img class="social-info-img" src="images/icons/Guarderia.svg" alt="">
+            </div>
+        </section>
+        <section id="recreacion">
+            <div>
+                <div class= "contenedor-seccion">
+
+                    <div class="a-left left-clip block">
+                        
+                    </div>
+        
+                    <div class="a-right right-clip block">
+                        <ul>
+                            <li><button class="buttonS">PISCINA OLÍMPICA</button></li>
+                            <li><button class="second-b buttonS">PISCINA PARA NIÑOS</button></li>
+                            <li><button class=" third-b buttonS">PARQUES INFANTILES</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="area-social">
+                <div class= "contenedor-seccion">
+
+                        <div class="b-left b-left-clip block">
+                                <ul>
+                                <li><button class="primer-b buttonS">CHURRASQUERAS</button></li>
+                                <li><button class="second-b buttonS">SALÓN DE FIESTAS</button></li>
+                                <li><button class="buttonS">ARENEROS</button></li>
+                            </ul>
+                        </div>
+            
+                        <div class="b-right b-right-clip block">
+            
+                        </div>
+                    </div>
+        </section>
+        <section id="deportes">
+                <div class= "contenedor-seccion">
+
+                        <div class="a-left c-left-clip block">
+                            
+                        </div>
+            
+                        <div class="a-right c-right-clip block">
+                            <ul>
+                                <li><button class="buttonS">GIMNASIO</button></li>
+                                <li><button class="second-b buttonS">CANCHAS</button></li>
+                                <li><button class=" third-b buttonS">SALA DE AERÓBICOS</button></li>
+                            </ul>
+                        </div>
+                    </div>
+        </section>
+        <section id="testimonios">
+            <div id="arrow-left-container" class="arrow-container">
+                <a href="#"><i class="fas fa-chevron-left fa-2x"></i></a>
+            </div>
+            <div class="testimonios-card">
+                <div class="row">
+                    <div class="quote-left-container">
+                        <i class="fas fa-quote-left fa-lg"></i>
+                    </div>
+                    <div class="testimonios-text-container">
+                        <p class="text-justify">Lorem ipsum dolor sit , consectetur adipiscing elit. 
+                        commodo sagittis, sapien dui mattis dui, non pulvinar lorem 
+                        felis nec erat.</p>
+                    </div>
+                    <div class="quote-right-container">
+                        <i class="fas fa-quote-right fa-lg"></i>
+                    </div>
+                </div>
+                <div class="name-container">
+                    <h4>Albert Einstein</h4>
+                </div>
+            </div>
+            <div class="testimonios-card">
+                <div class="row">
+                    <div class="quote-left-container">
+                        <i class="fas fa-quote-left fa-lg"></i>
+                    </div>
+                    <div class="testimonios-text-container">
+                        <p class="text-justify">Lorem ipsum dolor sit , consectetur adipiscing elit. 
+                        commodo sagittis, sapien dui mattis dui, non pulvinar lorem 
+                        felis nec erat.</p>
+                    </div>
+                    <div class="quote-right-container">
+                        <i class="fas fa-quote-right fa-lg"></i>
+                    </div>
+                </div>
+                <div class="name-container">
+                    <h4>Albert Einstein</h4>
+                </div>
+            </div>
+            <div id="arrow-right-container" class="arrow-container">
+                <a href="#"><i class="fas fa-chevron-right fa-2x"></i></a>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+                <div id="footer-nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                </div>
+                <div id="footer-copy">
+                    <p>&copy; 2019. Chingu <strong>Voyage 8</strong> Toucans team 02</p>
+                </div>
+                <div id="footer-git">
+                    <a href="https://github.com/chingu-voyages/v8-toucans-team-02" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                </div>
+    </footer>
+</body>
